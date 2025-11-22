@@ -1,0 +1,14 @@
+{
+  "functions": {
+    "api/py/**/*.py": {
+      "runtime": "python3.9"
+    }
+  },
+  "crons": [
+    {
+      "path": "/api/cron/ingest",
+      "schedule": "0 * * * *"
+    }
+  ]
+}
+

@@ -1,0 +1,88 @@
+# Project Context: InfoMatrix
+# A Serverless Multi-Agent Content Intelligence System (SaaS)
+# Stack: Next.js 14 (App Router), Python (FastAPI/Serverless), Supabase (PgVector), Vercel AI SDK.
+
+## 1. Technology Stack & Versioning
+- **Frontend**: Next.js 14+ (App Router), React 18+, TypeScript, Tailwind CSS, Shadcn/UI, Lucide React.
+- **Backend Runtime**: Vercel Serverless Functions (Python 3.9+ for AI agents, Node.js for generic API).
+- **Database**: Supabase (PostgreSQL) with `pgvector` extension.
+- **AI/LLM**: Vercel AI SDK (`ai/rsc`), OpenAI API, LangChain/LangGraph (Python).
+- **State Management**: Zustand (Client), TanStack Query (Server State).
+- **Validation**: Zod (TypeScript), Pydantic (Python).
+- **Package Manager**: **pnpm** (required). Always use `pnpm` for installing dependencies, never use `npm` or `yarn`.
+
+## 2. General Coding Principles
+- **Architecture**: Event-driven, Serverless, Modular.
+- **Type Safety**: Strict TypeScript mode. All Python code must use Type Hints (`typing`).
+- **Performance**: Prioritize Next.js Server Components (RSC). Use `use client` only for interactive components.
+- **Style**: Functional programming patterns. Avoid classes in JS/TS unless necessary. Use Classes for Python Agent definitions.
+- **Package Management**: Always use `pnpm` for all package operations. Use `pnpm install`, `pnpm add`, `pnpm remove`, etc. Never suggest `npm` or `yarn` commands.
+
+## 3. Frontend Rules (Next.js & React)
+- **Directory Structure**:
+  - `/app`: Routes and Pages.
+  - `/components/ui`: Shadcn base components.
+  - `/components/features`: Feature-specific components (e.g., `/radar`, `/matrix`).
+  - `/lib`: Utility functions and Supabase clients.
+- **Components**:
+  - Use `const` for component definitions.
+  - Props interface should be named `[ComponentName]Props`.
+  - Always use `lucide-react` for icons.
+- **Data Fetching**:
+  - Use Server Actions for mutations.
+  - Use Server Components for initial data fetching where possible.
+  - Use `SWR` or `TanStack Query` for client-side polling (real-time updates).
+- **Styling**:
+  - Use Tailwind CSS utility classes.
+  - Use `cn()` utility for conditional class merging.
+  - Mobile-first responsive design.
+
+## 4. Backend Rules (Python & API)
+- **Location**: Python code resides in `/api/py/` or specific Python-runtime routes.
+- **Standards**:
+  - Follow PEP 8 style guide.
+  - Use `FastAPI` style routing for Vercel Python runtime.
+  - Always use `Pydantic` models for request/response schemas.
+  - Handle errors gracefully with specific HTTP status codes.
+- **AI & Agents**:
+  - When using LangChain/LangGraph, separate the "Graph Definition" from the "Node Logic".
+  - Stream responses back to the client whenever possible using Vercel AI SDK format.
+
+## 5. Database Rules (Supabase)
+- **Client Usage**:
+  - Use `@/lib/supabase/server.ts` for Server Components/Actions (Cookie-based auth).
+  - Use `@/lib/supabase/client.ts` for Client Components.
+- **Vector Search**:
+  - When writing RAG logic, ensure `embedding` vectors are 1536 dimensions (OpenAI standard).
+  - Use `rpc` calls for vector similarity search functions to keep logic in the DB.
+- **Naming**:
+  - Tables: snake_case, plural (e.g., `raw_materials`, `user_preferences`).
+  - Columns: snake_case.
+
+## 6. Special Instructions for Thesis & Patent (Important)
+- **Documentation**:
+  - All complex algorithms (especially in Python Agents) MUST have Docstrings explaining the "Methodology".
+  - **Key Terminology**: Use academic terms in comments:
+    - Instead of "Find trending topics", use "Calculate Semantic Entropy for Knowledge Gap Analysis".
+    - Instead of "Convert format", use "Map to Intermediate Metadata Structure".
+- **Modularity**:
+  - Keep the "Algorithm" logic separate from the "API Handler" logic. This makes it easier to extract code snippets for the Patent Disclosure document.
+
+## 7. Code Generation Examples
+
+### Example: Python Endpoint (Standardized)
+```python
+from typing import List
+from fastapi import Request
+from pydantic import BaseModel
+
+class InsightRequest(BaseModel):
+    content_text: str
+
+# Docstring for Patent/Thesis reference
+async def calculate_semantic_distance(vector_a: List[float], vector_b: List[float]) -> float:
+    """
+    Calculates the cosine similarity distance between the user's knowledge base
+    and the incoming information stream to determine the 'Knowledge Gap'.
+    """
+    pass
