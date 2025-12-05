@@ -1,6 +1,7 @@
 "use client";
 
 import * as React from "react";
+import Image from "next/image";
 import { LogIn, LogOut, User } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Avatar } from "@/components/ui/avatar";
@@ -81,10 +82,13 @@ export const AuthButton: React.FC = () => {
           >
             <Avatar className="h-8 w-8 border-2 border-background transition-all duration-300 ease-out group-hover:ring-2 group-hover:ring-accent/20">
               {user.user_metadata?.avatar_url ? (
-                <img
+                <Image
                   src={user.user_metadata.avatar_url}
                   alt={user.email || "User"}
+                  width={32}
+                  height={32}
                   className="h-full w-full rounded-full"
+                  unoptimized
                 />
               ) : (
                 <div className="flex h-full w-full items-center justify-center rounded-full bg-primary text-primary-foreground text-xs">
