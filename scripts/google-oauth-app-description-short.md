@@ -3,7 +3,7 @@
 ## 英文版（推荐用于 Google Cloud Console）
 
 ```
-InfoMatrix is a serverless multi-agent content intelligence platform designed to help content creators efficiently acquire, analyze, and distribute information across multiple platforms.
+SuKaAI is a serverless multi-agent content intelligence platform designed to help content creators efficiently acquire, analyze, and distribute information across multiple platforms.
 
 Core Features:
 - Intelligent Content Ingestion: Automatically collects and processes content from various sources (YouTube, Twitter, RSS feeds)
@@ -12,7 +12,7 @@ Core Features:
 - Conversational AI Interface: Provides real-time AI-powered chat for information queries and content assistance
 
 User Authentication:
-InfoMatrix uses Google OAuth for secure authentication. We only access your basic profile information (email and name) to create and manage your account, personalize your experience, and securely store your preferences and content.
+SuKaAI uses Google OAuth for secure authentication. We only access your basic profile information (email and name) to create and manage your account, personalize your experience, and securely store your preferences and content.
 
 Privacy & Security:
 - All user data is encrypted and stored securely
@@ -24,7 +24,7 @@ Privacy & Security:
 ## 中文版（备选）
 
 ```
-InfoMatrix 是一个基于 Serverless 架构的多智能体内容情报平台，旨在帮助内容创作者高效地获取、分析和分发信息。
+SuKaAI 是一个基于 Serverless 架构的多智能体内容情报平台，旨在帮助内容创作者高效地获取、分析和分发信息。
 
 核心功能：
 - 智能内容采集：自动从多个来源（YouTube、Twitter、RSS）收集和处理内容
@@ -33,7 +33,7 @@ InfoMatrix 是一个基于 Serverless 架构的多智能体内容情报平台，
 - 对话式 AI 界面：提供实时 AI 对话功能，支持信息查询和内容辅助
 
 用户认证：
-InfoMatrix 使用 Google OAuth 进行安全认证。我们仅访问您的基本资料信息（电子邮件和姓名），用于创建和管理账户、个性化体验以及安全存储您的偏好和内容。
+SuKaAI 使用 Google OAuth 进行安全认证。我们仅访问您的基本资料信息（电子邮件和姓名），用于创建和管理账户、个性化体验以及安全存储您的偏好和内容。
 
 隐私与安全：
 - 所有用户数据均经过加密并安全存储
@@ -52,7 +52,7 @@ InfoMatrix 使用 Google OAuth 进行安全认证。我们仅访问您的基本�
 
 ### App name (应用名称)
 ```
-InfoMatrix
+SuKaAI
 ```
 
 ### User support email (用户支持邮箱)

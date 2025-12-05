@@ -1,4 +1,4 @@
-# InfoMatrix 项目设置指南
+# SuKaAI 项目设置指南
 
 ## 📋 前置要求
 
@@ -65,7 +65,7 @@ pnpm dev
 ## 📁 项目结构说明
 
 ```
-InfoMatrix/
+SuKaAI/
 ├── app/                    # Next.js App Router
 │   ├── layout.tsx         # 根布局
 │   ├── page.tsx           # 首页

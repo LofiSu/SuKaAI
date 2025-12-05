@@ -1,4 +1,4 @@
--- InfoMatrix Database Initialization Script
+-- SuKaAI Database Initialization Script
 -- 在 Supabase SQL Editor 中运行此脚本
 -- 链接: https://supabase.com/dashboard/project/jpgvzeqfoagsjmmokhge/sql/new
 

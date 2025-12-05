@@ -1,4 +1,4 @@
-# InfoMatrix 配置指南
+# SuKaAI 配置指南
 
 ## 1. 环境变量配置
 

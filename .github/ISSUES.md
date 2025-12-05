@@ -1,4 +1,4 @@
-# InfoMatrix 功能规划与 Issue 列表
+# SuKaAI 功能规划与 Issue 列表
 
 ## 📋 基础功能完善 (Foundation Enhancement)
 

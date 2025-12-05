@@ -15,7 +15,7 @@
    - 点击 "Create Credentials" > "OAuth client ID"
    - 如果是第一次创建，需要先配置 OAuth 同意屏幕：
      - 选择 "External"（外部用户）
-     - 填写应用名称：`InfoMatrix`
+     - 填写应用名称：`SuKaAI`
      - **应用描述**：请参考 `scripts/google-oauth-app-description.md` 中的详细描述
      - 添加你的邮箱作为支持邮箱和开发者联系邮箱
      - 配置应用主页 URL（如果有）

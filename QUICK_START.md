@@ -1,4 +1,4 @@
-# 🚀 InfoMatrix 快速启动指南
+# 🚀 SuKaAI 快速启动指南
 
 ## 当前配置状态
 
@@ -99,7 +99,7 @@ lsof -ti:3000 && echo "✅ Server running" || echo "❌ Server not running"
 ## 项目结构说明
 
 ```
-InfoMatrix/
+SuKaAI/
 ├── app/                    # Next.js 页面
 │   ├── page.tsx           # 首页
 │   ├── discover/           # 发现页面

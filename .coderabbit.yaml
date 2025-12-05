@@ -1,4 +1,4 @@
-# CodeRabbit Configuration for InfoMatrix
+# CodeRabbit Configuration for SuKaAI
 # This file configures CodeRabbit AI code review behavior
 
 # Review settings
@@ -85,7 +85,7 @@ path_filters:
 # Review prompt customization
 review_prompt:
   extra: |
-    Please review the code following InfoMatrix project conventions:
+    Please review the code following SuKaAI project conventions:
     - TypeScript/Type safety best practices
     - Next.js 14 App Router patterns
     - Proper error handling

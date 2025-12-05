@@ -30,7 +30,7 @@ CodeRabbit 支持两种安装方式：
 2. 点击 **"Install GitHub App"** 或 **"Get Started"**
 3. 选择 **"Install on GitHub"**
 4. 选择要安装的仓库：
-   - **Only select repositories** - 选择 `InfoMatrix`
+   - **Only select repositories** - 选择 `SuKaAI`
    - 或 **All repositories** - 安装到所有仓库
 5. 点击 **"Install"**
 
@@ -133,7 +133,7 @@ path_filters:
 ```yaml
 review_prompt:
   extra: |
-    Please review the code following InfoMatrix project conventions:
+    Please review the code following SuKaAI project conventions:
     - TypeScript/Type safety best practices
     - Next.js 14 App Router patterns
     - Proper error handling

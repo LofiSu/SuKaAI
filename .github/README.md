@@ -1,6 +1,6 @@
 # GitHub 配置文档
 
-本目录包含 InfoMatrix 项目的所有 GitHub 相关配置。
+本目录包含 SuKaAI 项目的所有 GitHub 相关配置。
 
 ## 📁 目录结构
 

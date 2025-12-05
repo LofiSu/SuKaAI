@@ -1,4 +1,4 @@
--- InfoMatrix Database Schema
+-- SuKaAI Database Schema
 -- PostgreSQL with pgvector extension for vector similarity search
 
 -- Enable pgvector extension

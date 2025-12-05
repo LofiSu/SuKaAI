@@ -1,4 +1,4 @@
-# Project Context: InfoMatrix
+# Project Context: SuKaAI
 # A Serverless Multi-Agent Content Intelligence System (SaaS)
 # Stack: Next.js 14 (App Router), Python (FastAPI/Serverless), Supabase (PgVector), Vercel AI SDK.
 

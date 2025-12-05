@@ -1,9 +1,9 @@
 #!/bin/bash
 
-# InfoMatrix Auto Configuration Script
+# SuKaAI Auto Configuration Script
 # 自动配置 Supabase 环境变量
 
-echo "🔧 InfoMatrix 自动配置脚本"
+echo "🔧 SuKaAI 自动配置脚本"
 echo "================================"
 echo ""
 

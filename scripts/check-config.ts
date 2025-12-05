@@ -23,7 +23,7 @@ const optionalEnvVars = [
 ]
 
 function checkConfig() {
-  console.log('🔍 Checking InfoMatrix Configuration...\n')
+  console.log('🔍 Checking SuKaAI Configuration...\n')
   
   const missing: string[] = []
   const present: string[] = []

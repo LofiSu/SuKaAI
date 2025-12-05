@@ -4,12 +4,12 @@
 
 ### Application Name (应用名称)
 ```
-InfoMatrix
+SuKaAI
 ```
 
 ### Application Description (应用描述 - 英文版)
 
-**InfoMatrix** is a serverless multi-agent content intelligence platform designed to help content creators efficiently acquire, analyze, and distribute information across multiple platforms.
+**SuKaAI** is a serverless multi-agent content intelligence platform designed to help content creators efficiently acquire, analyze, and distribute information across multiple platforms.
 
 **Core Functionality:**
 - **Intelligent Content Ingestion**: Automatically collects and processes content from various sources (YouTube, Twitter, RSS feeds) to help users stay informed about topics of interest
@@ -18,7 +18,7 @@ InfoMatrix
 - **Conversational AI Interface**: Provides an intelligent chat interface powered by OpenAI GPT models for real-time information queries and content assistance
 
 **User Authentication:**
-InfoMatrix uses Google OAuth to provide secure, seamless user authentication. When you sign in with your Google account, we only access your basic profile information (email address and name) to:
+SuKaAI uses Google OAuth to provide secure, seamless user authentication. When you sign in with your Google account, we only access your basic profile information (email address and name) to:
 - Create and manage your user account
 - Personalize your experience
 - Save your content preferences and search history
@@ -47,7 +47,7 @@ InfoMatrix uses Google OAuth to provide secure, seamless user authentication. Wh
 
 ### Application Description (应用描述 - 中文版)
 
-**InfoMatrix** 是一个基于 Serverless 架构的多智能体内容情报平台，旨在帮助内容创作者高效地获取、分析和分发信息。
+**SuKaAI** 是一个基于 Serverless 架构的多智能体内容情报平台，旨在帮助内容创作者高效地获取、分析和分发信息。
 
 **核心功能：**
 - **智能内容采集**：自动从多个来源（YouTube、Twitter、RSS 订阅）收集和处理内容，帮助用户及时了解感兴趣的话题
@@ -56,7 +56,7 @@ InfoMatrix uses Google OAuth to provide secure, seamless user authentication. Wh
 - **对话式 AI 界面**：提供由 OpenAI GPT 模型驱动的智能对话界面，支持实时信息查询和内容辅助
 
 **用户认证：**
-InfoMatrix 使用 Google OAuth 提供安全、无缝的用户认证。当您使用 Google 账号登录时，我们仅访问您的基本资料信息（电子邮件地址和姓名），用于：
+SuKaAI 使用 Google OAuth 提供安全、无缝的用户认证。当您使用 Google 账号登录时，我们仅访问您的基本资料信息（电子邮件地址和姓名），用于：
 - 创建和管理您的用户账户
 - 个性化您的使用体验
 - 保存您的内容偏好和搜索历史
@@ -87,7 +87,7 @@ InfoMatrix 使用 Google OAuth 提供安全、无缝的用户认证。当您使�
 
 ### App name (应用名称)
 ```
-InfoMatrix
+SuKaAI
 ```
 
 ### User support email (用户支持邮箱)
@@ -102,7 +102,7 @@ InfoMatrix
 
 ### App logo (应用图标)
 ```
-可选：上传 InfoMatrix 的 logo（如果有）
+可选：上传 SuKaAI 的 logo（如果有）
 ```
 
 ### Application home page (应用主页)
@@ -144,7 +144,7 @@ localhost（开发环境）
 
 ## 快速配置清单
 
-- [ ] 填写应用名称：InfoMatrix
+- [ ] 填写应用名称：SuKaAI
 - [ ] 填写应用描述（使用上面的英文或中文版本）
 - [ ] 设置用户支持邮箱
 - [ ] 设置开发者联系邮箱

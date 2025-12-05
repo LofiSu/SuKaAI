@@ -1,6 +1,6 @@
 # 贡献指南 (Contributing Guide)
 
-感谢你对 InfoMatrix 项目的关注！本指南将帮助你了解如何为项目做出贡献。
+感谢你对 SuKaAI 项目的关注！本指南将帮助你了解如何为项目做出贡献。
 
 ## 📋 目录
 
@@ -34,11 +34,11 @@
 ```bash
 # Fork 仓库到你的 GitHub 账户
 # 然后 clone 你的 fork
-git clone https://github.com/YOUR_USERNAME/InfoMatrix.git
-cd InfoMatrix
+git clone https://github.com/YOUR_USERNAME/SuKaAI.git
+cd SuKaAI
 
 # 添加上游仓库
-git remote add upstream https://github.com/ORIGINAL_OWNER/InfoMatrix.git
+git remote add upstream https://github.com/ORIGINAL_OWNER/SuKaAI.git
 ```
 
 ### 2. 安装依赖
@@ -350,7 +350,7 @@ black --check api/py/
 
 ## 🙏 致谢
 
-感谢所有为 InfoMatrix 做出贡献的开发者！
+感谢所有为 SuKaAI 做出贡献的开发者！
 
 ---
 

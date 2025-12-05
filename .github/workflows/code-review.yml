@@ -51,7 +51,7 @@ jobs:
             **/*.js
             **/*.jsx
           system_message: |
-            You are an expert code reviewer for InfoMatrix, a Serverless Multi-Agent Content Intelligence System.
+            You are an expert code reviewer for SuKaAI, a Serverless Multi-Agent Content Intelligence System.
 
             Review Guidelines:
             1. Check for TypeScript/Type safety issues
@@ -93,7 +93,7 @@ jobs:
           max_files_to_review: 50
           max_files_to_summarize: 20
           review_prompt_extra: |
-            Please review the code following InfoMatrix project conventions:
+            Please review the code following SuKaAI project conventions:
             - TypeScript/Type safety best practices
             - Next.js 14 App Router patterns
             - Proper error handling
