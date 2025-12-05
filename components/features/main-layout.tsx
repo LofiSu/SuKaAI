@@ -12,6 +12,7 @@ export interface MainLayoutProps {
   children?: React.ReactNode;
   searchPlaceholder?: string;
   onSearch?: (query: string) => void;
+  showLibrary?: boolean;
 }
 
 export const MainLayout: React.FC<MainLayoutProps> = ({
@@ -106,13 +107,13 @@ export const MainLayout: React.FC<MainLayoutProps> = ({
             {/* Logo/Brand */}
             <div className="flex flex-col items-center gap-2">
               <h1 className="text-3xl font-bold">
-                <span className="text-foreground">Info</span>
+                <span className="text-foreground">SuKa</span>
                 <span className="rounded-full bg-accent px-2 py-0.5 text-accent-foreground ml-1">
-                  Matrix
+                  AI
                 </span>
               </h1>
               <p className="text-sm text-muted-foreground">
-                Serverless Multi-Agent Content Intelligence Platform
+                AIGC Content Creation Platform
               </p>
             </div>
 

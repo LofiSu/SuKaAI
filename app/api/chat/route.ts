@@ -30,7 +30,7 @@ export async function POST(request: NextRequest) {
 
     // Stream the response using Vercel AI SDK
     const result = await streamText({
-      model: openai("gpt-4o-mini"), // Using gpt-4o-mini for cost efficiency, can be changed to gpt-4o
+      model: openai("gpt-4o-mini") as any, // Using gpt-4o-mini for cost efficiency, can be changed to gpt-4o
       messages: messages.map((msg: any) => {
         // Ensure content is properly formatted as a string and handle Unicode
         let content = typeof msg.content === "string" 
